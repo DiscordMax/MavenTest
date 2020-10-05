@@ -2031,3 +2031,67 @@ html[dir="ltr"] .kzhQvQ {
                         margin-top: -32px;
                     }
                 }
+.eNuOLl {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.eNuOLl.transition-enter-active div:nth-of-type(1), .eNuOLl.transition-enter-done div:nth-of-type(1) {
+    transform-origin: left center;
+    transform: rotate(45deg);
+    transition: transform 250ms ease-in 0s;
+}
+
+.eNuOLl div {
+    width: 100%;
+    height: 2px;
+    background: white;
+    border-radius: 10px;
+    transition: all 0.3s linear 0s;
+}
+
+.eNuOLl.transition-enter-active div:nth-of-type(2), .eNuOLl.transition-enter-done div:nth-of-type(2) {
+    opacity: 0;
+    transition: transform 200ms ease-in 0s;
+}
+
+.eNuOLl.transition-enter-active div:nth-of-type(3), .eNuOLl.transition-enter-done div:nth-of-type(3) {
+    transform-origin: left center;
+    transform: rotate(-45deg);
+    transition: transform 250ms ease-in 0s;
+}
+
+.jyXrXA.transition-enter-active, .jyXrXA.transition-enter-done {
+    max-height: 800px;
+}
+
+.jyXrXA {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 250ms ease-in 0s;
+}
+
+.iMzigi {
+    list-style: none;
+}
+
+.eLuKaf {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: rgb(19, 20, 22);
+}
+
+.eomvyg {
+    padding: 15px 0px 15px 15px;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+
