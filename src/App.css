@@ -2117,4 +2117,13 @@ html[dir="ltr"] .kzhQvQ {
     font-size: 14px;
 }
 
-
+.ozbGB {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding: 0px 32px;
+    background-color: rgba(19, 20, 22, 0.56);
+    min-height: 72px;
+}
