@@ -2093,5 +2093,28 @@ html[dir="ltr"] .kzhQvQ {
     font-size: 14px;
 }
 
+.jyXrXA {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 250ms ease-in 0s;
+}
+
+.iMzigi {
+    list-style: none;
+}
+
+.eLuKaf {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    background-color: rgb(19, 20, 22);
+}
+
+.eomvyg {
+    padding: 15px 0px 15px 15px;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 14px;
+}
 
 
