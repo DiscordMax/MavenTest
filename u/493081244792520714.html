@@ -118,6 +118,36 @@ code[class*=language-],pre[class*=language-]{color:#000;background:none;text-sha
         .fa, .fas {
             color: white!important;
         }
+        
+        
+        <style>
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+    
     </style>
 </head>
 <body>
@@ -162,12 +192,14 @@ code[class*=language-],pre[class*=language-]{color:#000;background:none;text-sha
                                     <h1 class="title" data-v-b99e9a34>Max
         </h1>
                                     <div class="subtitle badges" data-v-b99e9a34>
-                                        <span class="icon" data-v-b99e9a34>
+                                        <span class="icon tooltip" data-v-b99e9a34>
                                             <i class="fas fa-crown"></i>
+                                            <span class="tooltiptext">Tooltip text test</span>
                                         </span>
                                         <span class="icon" data-v-b99e9a34>
                                             <i class="fas fa-wrench"></i>
                                         </span>
+                                        
                                         <span class="icon" data-v-b99e9a34>
                                             <i class="fas fa-star"></i>
                                         </span>
