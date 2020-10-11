@@ -2226,6 +2226,12 @@ section h2 {
     cursor: pointer;
 }
 
+.container-3anwj2 {
+    color: #23272a;
+    color: var(--not-quite-black);
+}
+
+
 .question-2uW4ry {
     margin-top: auto;
     margin-bottom: auto;
