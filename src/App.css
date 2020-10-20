@@ -2304,7 +2304,7 @@ section {
 h2.featured {
     color: #fff;
 }
-@media screen and (min-width: 1024px)
+
 .tab {
     width: 30%;
     overflow: hidden;
