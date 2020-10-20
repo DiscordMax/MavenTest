@@ -2306,11 +2306,11 @@ h2.featured {
 }
 
 .tab {
-    width: 30%;
+    width: 82%;
     overflow: hidden;
     border-radius: 8px;
     overflow: hidden;
-    border-radius: 25px;
+    border-radius: 16px;
     background: #191919;
 }
 input[type=checkbox] {
@@ -2351,7 +2351,7 @@ button, input, optgroup, select, textarea {
 }
 
 input:checked+.tab-label {
-    background: rgb(23, 24, 27);
+    background: transparent;
 }
 .tab-label {
     display: -webkit-box;
