@@ -2351,7 +2351,7 @@ button, input, optgroup, select, textarea {
 }
 
 input:checked+.tab-label {
-    background: #191919;
+    background: rgb(23, 24, 27);
 }
 .tab-label {
     display: -webkit-box;
